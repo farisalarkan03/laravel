@@ -1,8 +1,8 @@
 name: laravel-absensi-pp
 version: latest
-description: Laravel Absensi dengan PHP-FPM dan Nginx
+description: Laravel belajar
 container:
-  image: alaziz554/absensi-laravel:1.0.18
+  image: farisalarkan03/laravel:1.0.18
   port: 80
 resources:
   cpu: 1
@@ -54,5 +54,5 @@ env:
 envMap:
     domain_env: APP_URL
 
-domain: absensipp.deployaja.id
+domain: faris.deployaja.id
 
